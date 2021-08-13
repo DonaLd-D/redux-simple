@@ -1,3 +1,12 @@
+# steps
+- init state
+- create action
+- create store
+- provide store to app via Provider
+- map state to components
+- map dispatch to components
+- use state via this.props.`[store state]`,dispatch state via this.props.`[store dispatch function]`
+
 # Getting Started with React Redux
 ```js
 class DisplayMessages extends React.Component {
